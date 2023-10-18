@@ -1,7 +1,6 @@
 /* eslint-disable no-continue,no-await-in-loop,node/no-unpublished-import */
-import { promisify } from 'util'
 import type { CDPSession, Protocol } from 'puppeteer-core'
-import { getUrlPatternRegExp } from './urlPattern'
+import { getUrlPatternRegExp } from './urlPattern.ts'
 
 export { getUrlPatternRegExp }
 
