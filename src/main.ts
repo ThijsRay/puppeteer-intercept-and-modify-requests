@@ -1,5 +1,6 @@
 /* eslint-disable no-continue,no-await-in-loop,node/no-unpublished-import */
 import type { CDPSession, Protocol } from 'puppeteer-core'
+import { Buffer } from 'node:buffer';
 import { getUrlPatternRegExp } from './urlPattern.ts'
 
 export { getUrlPatternRegExp }
