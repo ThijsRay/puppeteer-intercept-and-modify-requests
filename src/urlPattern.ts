@@ -1,4 +1,4 @@
-import escapeRegExp from 'escape-string-regexp'
+import escapeRegExp from 'npm:escape-string-regexp'
 
 export const getUrlPatternRegExp = (urlPattern: string) =>
   new RegExp(
