@@ -56,7 +56,7 @@ export type InterceptionWithUrlPatternRegExp = Interception & {
   urlPatternRegExp: RegExp
 }
 
-const wait = promisify(setTimeout)
+const wait = new Promise((x) => setTimeout(x));
 
 export class RequestInterceptionManager {
   interceptions: Map<string, InterceptionWithUrlPatternRegExp> = new Map()
